@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
 
 	useEffect(() =>{
 		if (authUser) {
-			const socket = io("http://localhost:8000",{
+			const socket = io("http://localhost:8000",{  // use render hosted link
                 query: {
                     userId:authUser._id,
                 },
