@@ -8,6 +8,8 @@ This is Web-Based Chat-Application developed using the MERN (MongoDB, Express.js
 
 ---
 ![Chat Application](frontend/src/assets/chat-app_2.png?raw=true "Chat-App Web Application")
+---
+---
 ![Chat Application](frontend/src/assets/chat-app1.png?raw=true "Chat-App Web Application")
 ---
 
