@@ -1,11 +1,14 @@
 # Web-Based Chat Application
 
-This is  Web-Based Chat-Application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to register, log in, and chat with other users in real time.
+This is Web-Based Chat-Application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to register, log in, and chat with other users in real time.
 
-| Live Demo Video Link For How Real Time Messagin working using Socket.io | Application Hosted Link |
+| Live Demo Video Link For How Real-Time Messaging Working using Socket.io | Application Hosted Link |
 |---|---|
 |https://res.cloudinary.com/arvindkumar/video/upload/v1712558423/Chat-App/Live_Test_Chat-App_y9zvof.mp4|https://chat-application-4krm.onrender.com/|
 
+---
+![Chat Application](frontend/src/assets/chat-app_2.png?raw=true "Chat-App Web Application")
+![Chat Application](frontend/src/assets/chat-app1.png?raw=true "Chat-App Web Application")
 ---
 
 ## Features
@@ -13,6 +16,9 @@ This is  Web-Based Chat-Application developed using the MERN (MongoDB, Express.j
 - User authentication: Users can register and log in securely.
 - Real-time messaging: Users can chat with each other in real-time.
 - Responsive design: The app is responsive and works well on both desktop and mobile devices.
+- Live notifications for new incoming messages.
+- Online user facility indicating which users are currently online.
+
 
 ## Technologies Used
 
@@ -21,7 +27,7 @@ This is  Web-Based Chat-Application developed using the MERN (MongoDB, Express.j
 - React.js: JavaScript library for building user interfaces.
 - Node.js: JavaScript runtime environment for running server-side code.
 - Socket.io: Real-time engine for WebSockets to enable real-time communication between clients and server.
-- Tailwind/CSS: Markup and styling for the frontend.
+- Tailwind/CSS: Markup and styling for the front end.
 
 ---
 
