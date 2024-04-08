@@ -1,6 +1,8 @@
-# Web-Based Chat Application Requirements
+# Web-Based Chat Application
 
 This is  Web-Based Chat-Application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to register, log in, and chat with other users in real time.
+
+---
 
 ## Features
 
@@ -17,6 +19,8 @@ This is  Web-Based Chat-Application developed using the MERN (MongoDB, Express.j
 - Socket.io: Real-time engine for WebSockets to enable real-time communication between clients and server.
 - Tailwind/CSS: Markup and styling for the frontend.
 
+---
+
 ## Installation
 
 1. Clone the repository:
@@ -31,30 +35,42 @@ This is  Web-Based Chat-Application developed using the MERN (MongoDB, Express.j
    cd Chat-Application
    ```
 
-3. Install dependencies for both frontend and backend for this Go to the frontend Package.json file and for Backend Dependencies refer chat web app application package.json file  Which is available in Chat-Application folder directly:
+3. Install dependencies for both frontend and backend
+> For frontend dependencies Go to the frontend folder `Package.json` file
+  and see all dependencies for installation
 
-   ```bash
-   cd frontend && npm install
-    npm install (dependencies name directly)
-   ```
+```bash
+ npm i 
+ npm i all_dependencies_name 
+```
+
+
+> For Backend Dependencies Go to the Chat-Application folder & refer directly available  `package.json` file:
+
+
+
+```bash
+ npm i 
+ npm i all_dependencies_name 
+```
 
 4. Set up environment variables:
    
-   - Create a `.env` file in the `server` directory.
+   - Create a `.env` file in the `Chat Application folder` directory.
    - Define the following variables in the `.env` file:
      ```
-     PORT=3001
-     MONGODB_URI=<your_mongodb_uri>
-     JWT_SECRET=<your_jwt_secret>
+     PORT = 5000
+     MONGODB_URI = <your_mongodb_uri>
+     JWT_SECRET = <your_jwt_secret>
      ```
 
 5. Run the development server:
 
    ```bash
-   cd ../ && npm run server
+   npm run start
    ```
 
-6. Open your browser and navigate to `http://localhost:${PORT}` to view the app.
+6. Open your browser and navigate to `http://localhost:5000` to view the app functionality.
 
 ## Usage
 
@@ -66,8 +82,6 @@ This is  Web-Based Chat-Application developed using the MERN (MongoDB, Express.j
 
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or new features you'd like to see added.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
  
