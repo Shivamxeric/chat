@@ -72,11 +72,15 @@ This is  Web-Based Chat-Application developed using the MERN (MongoDB, Express.j
 
 6. Open your browser and navigate to `http://localhost:5000` to view the app functionality.
 
+---
+
 ## Usage
 
 1. Register for an account or log in if you already have one.
 2. Once logged in, you'll be redirected to the chat interface.
 3. Start messaging with other users who are online in real-time.
+
+---
 
 ## Contributing
 
