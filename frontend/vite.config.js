@@ -3,7 +3,7 @@ export default defineConfig({
 		proxy: {
 			"/api": {
 				target: "https://chat-app-mern-stack-jf9b.onrender.com",
-				changeOrigin: true,
+				changeOrigin: false,
 				secure: false,
 			},
 		},
